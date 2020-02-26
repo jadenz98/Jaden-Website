@@ -6,11 +6,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Header from '../Header/Header';
 
-function Test() {
+
+function Resume() {
   return (
-      <h1>Test</h1>
+      <div>
+        <Header/>
+        <h1>Resume</h1>
+      </div>
   );
 }
 
-export default Test;
+export default Resume;
